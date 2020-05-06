@@ -25,7 +25,7 @@ namespace CH1
                 duck.PerformFly();
             }
 
-            // Behaviors can also change dynamically at runtime
+            // Behaviors can also change dynamically at runtime (maybe through a powerup!)
             Pond[1].FlyBehavior = new FlyRocketPowered();
             foreach (var duck in Pond)
             {
